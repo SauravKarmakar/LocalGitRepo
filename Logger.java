@@ -9,9 +9,9 @@ public class Logger {
         this.debug = false;
     }
 
-    public String getLoggerType() { return loggingType; }
+    public String getLoggerType() { return this.loggingType; }
 
     public void setLoggerType(String loggingType) {}
 
-    public boolean isDebugEnabled() { return debug; }
+    public boolean isDebugEnabled() { return this.debug; }
 }
