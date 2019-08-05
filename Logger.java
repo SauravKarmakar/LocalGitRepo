@@ -13,5 +13,6 @@ public class Logger {
 
     public void setLoggerType(String loggingType) {}
 
+    // checks whether debug is enabled or not
     public boolean isDebugEnabled() { return this.debug; }
 }
